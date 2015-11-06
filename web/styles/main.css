@@ -1,0 +1,76 @@
+/* 
+  Created on : Oct 14, 2015, 12:20:27 PM
+  Author     : (c) Elena Sparacio and Jamie Utt
+*/
+
+body {
+  border: 2px solid #000099;
+  font-family: Arial, Verdana, sans-serif;
+  margin: 0 auto;
+  width: 80%;
+}
+
+footer {
+  border-top: 2px solid #000099;
+  text-indent: 3em;
+}
+
+form {
+  padding-right:30%;
+  text-align: right;
+}
+
+h1 {
+  color:#000099;
+  font-size:1.5em;
+  padding-top: 1em;
+  text-indent:2em;
+}
+
+input {
+  width:15em;
+}
+
+tr{
+    text-align:right;
+}
+
+.butt {
+  margin-right:5.5em;
+  width:10em;
+}
+
+
+.gouda{
+    text-align:left;
+    text-indent: 1em;
+}
+table{
+    padding-left:10em;
+}
+
+p{
+    text-indent: 3em;
+}
+
+
+
+
+@media screen and (max-width: 400px) {
+  h1 {
+    text-indent:0em;
+    padding-left:1.3em;
+  }
+  
+  form {
+    padding-left:2em;
+    text-align: left;
+  }
+  
+  footer {
+    text-indent:0em;
+    padding-left:1.3em;
+  }
+}
+
+
