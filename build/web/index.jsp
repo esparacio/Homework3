@@ -13,8 +13,8 @@
       <form action="calculate" method="post">
         <input type="hidden" name="action" value="add"> 
         <p><i>${message}</i></p>
-        <p><label>Investment Amount </label><input name="investAmount" type="text" value="${user.investAmount}" /></p>
-        <p><label>Yearly Interest Rate </label><input name="yearlyRate" type="text" value="${user.yearlyRate}" /></p>
+        <p><label>Investment Amount </label><input name="investAmount" type="text" value="${investAmount}" /></p>
+        <p><label>Yearly Interest Rate </label><input name="yearlyRate" type="text" value="${yearlyRate}" /></p>
         <p><label>Number of Years </label><input name="numYears" type="number" value="${user.numYears}" placeholder="Integer Number of Years" /></p>
         <p><input class= "butt" type="submit" value="Calculate"></p>
       </form>

@@ -14,7 +14,9 @@ import javax.servlet.http.HttpServletResponse;
 
 import edu.business.User;
 import edu.data.UserDB;
+import java.lang.Double;
 import java.util.ArrayList;
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpSession;
 
 /**
@@ -84,6 +86,11 @@ public class Calculate extends HttpServlet {
       session.setAttribute("investAmount", investAmount);
       session.setAttribute("numYears", numYears);
       session.setAttribute("yearlyRate", yearlyRate);
+      
+      Cookie investCookie = new Cookie("investAmount",Double.toString(investAmount));
+      response.addCookie(investCookie);
+      Cookie rateCookie = new Cookie("yearlyRate",Double.toString(yearlyRate));
+      response.addCookie(rateCookie);
          
             }
             catch(NumberFormatException nfe){
