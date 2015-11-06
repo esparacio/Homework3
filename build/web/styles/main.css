@@ -10,6 +10,11 @@ body {
   width: 80%;
 }
 
+.butt {
+  margin-right:5.5em;
+  width:10em;
+}
+
 footer {
   border-top: 2px solid #000099;
   text-indent: 3em;
@@ -31,36 +36,37 @@ input {
   width:15em;
 }
 
-tr{
-    text-align:right;
-}
-
-.butt {
-  margin-right:5.5em;
-  width:10em;
-}
-
-
 .gouda{
     text-align:left;
     text-indent: 1em;
 }
-table{
-    padding-left:10em;
+
+p {
+  text-indent: 3em;
 }
 
-p{
-    text-indent: 3em;
+table {
+  padding-left:10em;
 }
 
+tr{
+    text-align:right;
+}
 
+a {
+  padding-left: 10em;
+}
 
+.years {
+  text-align: left;
+  
+}
+
+.ftvalue {
+  text-align: left;
+}
 
 @media screen and (max-width: 400px) {
-  h1 {
-    text-indent:0em;
-    padding-left:1.3em;
-  }
   
   form {
     padding-left:2em;
@@ -70,6 +76,27 @@ p{
   footer {
     text-indent:0em;
     padding-left:1.3em;
+  }
+  
+  h1 {
+    text-indent:0em;
+    padding-left:1.3em;
+  }
+  
+  p {
+    text-indent: 0;
+  }
+  
+  table {
+    padding-left: 1em;
+  }
+  
+  td {
+    text-align: left;
+  }
+  
+  a {
+    padding-left: 1em;
   }
 }
 

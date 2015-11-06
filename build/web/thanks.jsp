@@ -29,9 +29,13 @@
     </tr>
     
         <%@ taglib uri="/WEB-INF/elon.tld" prefix="cf" %>
+        <tr>
+        <th class="years">Year</th>
+        <th class="ftvalue">Value</th>
+      </tr>  
         <cf:currency>
       <tr>
-          <td>${years}</td>
+          <td class="years">${years}</td>
           <td>${importantValues}</td>
       </tr>
          </cf:currency>
